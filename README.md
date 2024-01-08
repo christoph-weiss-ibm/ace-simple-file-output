@@ -10,10 +10,12 @@ Im Compute Node wird die Property `dynamicText` als Response gesetzt. Die Repons
 
 **1. Setzen der Werte in der simpleflow.properties Datei** 
 
+Beispielwerte für die Datei - Verzeichnis (ouputDirectory) muss entsprechend existieren: 
 ``` 
 SimpleFileOutput#dynamicText=von der Property äöü
 SimpleFileOutput#outputDirectory=/tmp
 ```
+
 
 **2. Deploy und Overwrite der Anwendung**
 
@@ -44,6 +46,6 @@ Beispiel (Server ist entsprechend anzupassen):
 * Connection #0 to host prunella1.fyre.ibm.com left intact
 <Response><Text>von der Property äöü</Text></Response>
 ```
-
+zusätzlich Ausgabe in die Datei <outputDirectory>\ace-file.txt
 
 
