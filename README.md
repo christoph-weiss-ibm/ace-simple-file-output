@@ -16,12 +16,14 @@ SimpleFileOutput#outputDirectory=/tmp
 ```
 
 **2. Deploy und Overwrite der Anwendung**
+
 Beispiel: 
 ```
 ibmint deploy --input-bar-file ~/files/SimpleFileOutputproject.TestMode.bar --output-node TestNode --output-server TestServer --overrides-file /home/ace/files/simpleflow.properties --restart-all-applications
 ```
 
 **3. Aufruf/Test der Anwendung** 
+
 Beispiel (Server ist entsprechend anzupassen):
 ```
 [ace@prunella1 files]$  curl -vv http://prunella1.fyre.ibm.com:7800/Transformation_ESQL
