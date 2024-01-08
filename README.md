@@ -46,6 +46,6 @@ Beispiel (Server ist entsprechend anzupassen):
 * Connection #0 to host prunella1.fyre.ibm.com left intact
 <Response><Text>von der Property äöü</Text></Response>
 ```
-zusätzlich Ausgabe in die Datei <outputDirectory>\ace-file.txt
+zusätzlich Ausgabe in die Datei **=outputDirectory=\ace-file.txt**
 
 
